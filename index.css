@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap");
+body {
+  background-color: #eee;
+  font-family: "Goudy Bookletter 1911", serif;
+  font-size: larger;
+  color: #333;
+}
+
+#image {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 1%;
+  margin: auto;
+}
+#main {
+  margin: 1.5rem;
+}
+h1#title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -0.5rem;
+}
+span,
+figcaption {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 2rem;
+}
+
+section {
+  max-width: 1200px;
+  line-height: 2rem;
+  margin: auto;
+}
+section li {
+  text-align: justify;
+}
+
+figure blockquote,
+figure figcaption {
+  max-width: 1200px;
+
+  font-style: italic;
+  display: flex;
+  justify-content: flex-end;
+}
+a {
+  text-decoration: none;
+  color: #487ca6;
+}
+a:visited {
+  color: #9185a5;
+}
+@media (max-wdith: 800px) {
+  section {
+    flex-direction: column;
+  }
+}
